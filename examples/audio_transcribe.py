@@ -20,6 +20,7 @@ except sr.UnknownValueError:
     print("Sphinx could not understand audio")
 except sr.RequestError as e:
     print("Sphinx error; {0}".format(e))
+    print(" ")
 
 # recognize speech using Google Speech Recognition
 try:
